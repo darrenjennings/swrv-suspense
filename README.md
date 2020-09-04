@@ -24,7 +24,7 @@ Using suspense boundaries with `async setup`:
 </template>
 ```
 
-Await the mutation (only makes 1 request because of in-flight promoise deduplication):
+Await the mutation (only makes 1 request because of in-flight promise deduplication):
 
 ```ts
 interface Pokemon {
